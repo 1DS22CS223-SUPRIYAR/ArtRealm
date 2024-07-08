@@ -1,0 +1,38 @@
+/* Landing.css */
+
+.gifs {
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    align-items: center;
+  }
+  
+  .gif {
+    width: 500px;
+    margin-left: 10vw;
+    margin-top: 100px;
+ 
+  }
+  .gif img{
+    width: 800px;
+  }
+  
+  .gif2 {
+    width: 500px;
+    margin-top: 120px;
+    font-size: larger;
+    margin-left: 300px;
+    text-align: justify;
+    position: absolute;
+  }
+  .para{
+    margin-left: 500px;
+    width: 500px;
+  }
+  .head{
+    margin-left: 600px;
+    width: 180px;
+    
+  }
+  
+  

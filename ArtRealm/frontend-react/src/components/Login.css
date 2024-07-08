@@ -1,0 +1,100 @@
+/* Login.css */
+
+
+.login-page {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .login-page .navbar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+  }
+  
+.login-container {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .login-page .login-form-container .lcont {
+    margin-top: 0;
+    width: 100vh;
+    height: 300px;
+    margin-left: 300px;
+    position: absolute;
+  }
+  
+  .login-page .login-form-container .heading {
+    margin-left: 800px;
+    margin-top: 150px;
+    position: absolute;
+  }
+  
+  .login-page .login-form-container .Loginbtn {
+    border-radius: 80px;
+    padding: 10px;
+    background-color: rgb(223, 206, 185);
+    margin-left: 80px;
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+  }
+  
+  .login-page .login-form-container .login-container {
+    margin-top: 80px;
+    margin-left: 550px;
+  }
+  
+  .login-page .login-form-container .login-container form input {
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+  }
+  
+  .login-page .login-form-container .login-container .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .login-page .login-form-container .login-container p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .login-page .login-form-container .login-container a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .login-page .login-form-container .login-container a:hover {
+    color: #0056b3;
+  }
+  
+  /* Additional styles for NavigationBox and ArtCarousel can be added here */
+.Loginbtn{
+    position: absolute;
+
+    border-radius: 80px;
+    padding: 10px;
+    background-color: rgb(223, 206, 185);
+    text-align: center;
+    justify-content: center;
+    width: 100px;
+    border: none;
+    position: relative;
+}
