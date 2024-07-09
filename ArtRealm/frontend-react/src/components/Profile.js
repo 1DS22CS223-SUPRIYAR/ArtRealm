@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useLocation } from 'react-router-dom';
+import Navbar from './Navbar';
 
 const Profile = () => {
   const [userData, setUserData] = useState(null);
@@ -61,6 +62,8 @@ const Profile = () => {
   }
 
   return (
+    <>
+    <Navbar />
     <div className='profile'>
       <div className='pcont'>
         <div className='pic'>
@@ -101,6 +104,7 @@ const Profile = () => {
         </div>
       )}
     </div>
+    </>
   );
 }
 
