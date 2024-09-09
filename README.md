@@ -4,7 +4,7 @@ and bid on digital artworks. The platform features an intuitive user interface w
 to showcase their work and art enthusiasts to engage in auctions in real time.
 
 ## **Tech Stack**
-**Frontend:** React, CSS, Bootstrap <br>
-**Backend:** Django, MongoDB (via pymongo) <br>
-**Database:** MongoDB Atlas (Free Tier) <br>
-Payment Gateway:** Razorpay API <br>
+  **Frontend:** React, CSS, Bootstrap <br>
+  **Backend:** Django, MongoDB (via pymongo) <br>
+  **Database:** MongoDB Atlas (Free Tier) <br>
+  **Payment Gateway:** Razorpay API <br>
